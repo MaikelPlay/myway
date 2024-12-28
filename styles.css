@@ -1,0 +1,70 @@
+hr.header-separator {
+    width: 100px;
+}
+#services .box-service .service-icon {
+    font-size: 8rem;            
+}
+#team .box-team .member-photo {
+    border: 5px solid transparent;
+}
+#main-footer .footer-social .social-icon {
+    font-size: 1.5rem;
+}
+
+
+/* SECCIÓN SERVICES - TRANSICIONES */
+
+/* **** APARTADO 2.4 **** */
+
+/* .box-service. Si se produce un cambio de estado sobre estas cajas... */
+#services .box-service {
+    transition: all 0.3s ease-in-out;
+
+}
+
+#services .box-service:hover{
+    margin-top:-12px;
+}
+
+.box-service:hover .service-comment,
+.box-service:hover .service-text {
+    color: lawngreen !important;
+}
+
+/* **** APARTADO 2.5 **** */
+
+/* .box-service .service-icon i. Si se produce un cambio de estado sobre estas cajas... */
+#services .box-service .service-icon i {
+    transition: all 0.3s ease-in-out;
+}
+/* Al pasar el ratón sobre las cajas .box-service... */
+#services .box-service:hover .service-icon i {
+    color: lawngreen !important;
+}
+
+/* SECCIÓN TEAM - TRANSICIONES */
+
+/* **** APARTADO 3.3 **** */
+
+/* .box-team .member-photo. Si se produce un cambio de estado sobre estas cajas... */
+#team .box-team .member-photo {
+    transition: all 0.5s ease-in-out;
+}
+/* Al pasar el ratón sobre las cajas .box-team... */
+#team .box-team:hover .member-photo {
+    border: 5px solid lawngreen !important;
+    opacity: 0.8;
+}
+
+/* SECCIÓN FOOTER - TRANSICIONES */
+
+/* **** APARTADO 2.4 **** */
+
+/* .social-icon i. Si se produce un cambio de estado sobre estas cajas... */
+#main-footer .social-icon i {
+    transition: all 0.3s ease;
+}
+/* Al pasar el ratón sobre las cajas .social-icon... */
+#main-footer .social-icon:hover i {
+    color: lawngreen !important;
+}
